@@ -28,7 +28,7 @@
             var message = $('#messageBox').val();
             $.ajax( {
                 url:'${g.createLink( action:'submitMessage' )}',
-                data: { message: message, rvr: 'henry'}
+                data: { message: message, rvr: 'jane'}
             } );
             $('#messageBox').val('');
             return false;
@@ -38,7 +38,13 @@
     });
 
     function retrieveLatestMessages() {
-        <g:remoteFunction action="retrieveLatestMessages" update="chatMessages"/>
+        $.ajax( {
+            url:'${g.createLink( action:'retrieveLatestMessages' )}',
+            success: function(data) {
+                $('#chatMessages').html(data);
+            }
+        });
+%{--        <g:remoteFunction action="retrieveLatestMessages" update="chatMessages"/>--}%
     }
     function pollMessages() {
         retrieveLatestMessages();

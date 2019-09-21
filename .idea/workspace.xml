@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87940a85-5a3a-4c0b-85e4-ecb5bde57962" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.slcache/org_apache_commons_lang_builder_HashCodeBuilder_9642.bytes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/controllers/chatapp/AdminController.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/controllers/chatapp/LoginController.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/admin/index.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/admin/retrieveUsers.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grails-app/views/login/denied.gsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/chatapp/AdminControllerSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/unit/chatapp/LoginControllerSpec.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.slcache/.index" beforeDir="false" afterPath="$PROJECT_DIR$/.slcache/.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/chat/chat.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/chat/chat.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grails-app/views/login/auth.gsp" beforeDir="false" afterPath="$PROJECT_DIR$/grails-app/views/login/auth.gsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStrap$_closure2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chatapp/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chatapp/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/stacktrace.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/stacktrace.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +90,7 @@
       <updated>1568914001121</updated>
       <workItem from="1568914006478" duration="15014000" />
       <workItem from="1568943534677" duration="4555000" />
-      <workItem from="1569016266996" duration="2586000" />
+      <workItem from="1569016266996" duration="12603000" />
     </task>
     <servers />
   </component>
@@ -100,6 +112,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/grails-app/views/admin/index.gsp</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="grailsSettings">
     <option name="map">

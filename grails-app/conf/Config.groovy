@@ -138,5 +138,6 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/**/favicon.ico':  ['permitAll']
 ]
 
-grails.plugin.springsecurity.rejectIfNoRule = false
-grails.plugin.springsecurity.fii.rejectPublicInvocations = false
+
+//grails.plugin.springsecurity.rejectIfNoRule = false
+//grails.plugin.springsecurity.fii.rejectPublicInvocations = false

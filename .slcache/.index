@@ -4865,3 +4865,16 @@ n:1180:grails/plugin/springsecurity/SecurityConfigType
 n:1735:grails/plugin/springsecurity/authentication/GrailsAnonymousAuthenticationToken
 n:1766:org/springframework/security/core/context/ThreadLocalSecurityContextHolderStrategy
 y:9642:org/apache/commons/lang/builder/HashCodeBuilder
+n:1853:org/codehaus/groovy/control/messages/SyntaxErrorMessage
+n:1774:org/codehaus/groovy/control/messages/Message
+n:2316:org/codehaus/groovy/syntax/SyntaxException
+n:1134:org/codehaus/groovy/GroovyException
+n:3115:org/codehaus/groovy/tools/ErrorReporter
+n:1919:org/apache/log4j/DefaultThrowableRenderer
+n:200:org/apache/log4j/spi/ThrowableRenderer
+n:3103:jline/console/history/MemoryHistory$EntriesIterator
+n:1117:jline/console/history/MemoryHistory$EntryImpl
+n:264:jline/console/history/History$Entry
+n:9290:org/codehaus/groovy/grails/plugins/web/api/MimeTypesApiSupport
+n:583:groovyjarjarantlr/TokenStreamRecognitionException
+n:523:groovyjarjarantlr/TokenStreamException
